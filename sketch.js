@@ -26,8 +26,8 @@ function generateRandomPoints() {
   // 원: 칸 중앙에 오도록 0.5 더함 (그리드 밖으로 안 나감)
   for (let i = 0; i < 6; i++) {
     circlePts.push({
-      x: floor(random(0, gridSize)) + 0.5,
-      y: floor(random(0, gridSize)) + 0.5
+      x: floor(random(0, gridSize)),
+      y: floor(random(0, gridSize))
     });
   }
 }
