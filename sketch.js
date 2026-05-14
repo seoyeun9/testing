@@ -21,4 +21,12 @@ function draw() {
   vertex(4*s, 2*s);
   vertex(1*s, 2*s);
   endShape(CLOSE);
-}
+
+  }
+  function drawGrid() {
+  stroke(220);
+  for (let i = 0; i <= 8; i++) {
+    line(i * 50, 0, i * 50, 400);
+    line(0, i * 50, 400, i * 50);
+  }
+  }
