@@ -47,13 +47,11 @@ function draw() {
 
   // 삼각형
   stroke(0);
-  fill(100, 150, 255, 150);
   beginShape();
   for (let p of trianglePts) vertex(p.x * 50, p.y * 50);
   endShape(CLOSE);
 
   // 원
-  fill(255, 100, 100, 150);
   for (let c of circlePts) {
     ellipse(c.x * 50, c.y * 50, 40, 40); // 지름을 40으로 살짝 줄여 여유 공간 확보
   }
