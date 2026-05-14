@@ -4,7 +4,6 @@ let trianglePts = [];
 let circlePts = [];
 
 function setup() {
-  // HTML의 id="canvas-container" 안에 캔버스를 넣습니다.
   let canvas = createCanvas(400, 400);
   canvas.parent('canvas-container');
   
